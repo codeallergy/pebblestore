@@ -75,6 +75,10 @@ func (t *implPebbleStore) Increment(ctx context.Context) *store.IncrementOperati
 	return &store.IncrementOperation{DataStore: t, Context: ctx, Initial: 0, Delta: 1}
 }
 
+func (t *implPebbleStore) Touch(ctx context.Context) *store.TouchOperation {
+	return &store.TouchOperation{DataStore: t, Context: ctx}
+}
+
 func (t*implPebbleStore) Remove(ctx context.Context) *store.RemoveOperation {
 	return &store.RemoveOperation{DataStore: t, Context: ctx}
 }
@@ -134,6 +138,10 @@ func (t *implPebbleStore) UpdateRaw(ctx context.Context, key []byte, cb func(ent
 
 func (t*implPebbleStore) CompareAndSetRaw(ctx context.Context, key, value []byte, ttlSeconds int, version int64) (bool, error) {
 	return true, t.SetRaw(ctx, key, value, ttlSeconds)
+}
+
+func (t *implPebbleStore) TouchRaw(ctx context.Context, fullKey []byte, ttlSeconds int) error {
+	return nil
 }
 
 func (t*implPebbleStore) RemoveRaw(ctx context.Context, key []byte) error {

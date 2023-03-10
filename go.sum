@@ -43,10 +43,10 @@ github.com/cockroachdb/redact v1.0.8/go.mod h1:BVNblN9mBWFyMyqK1k3AAiSxhvhfK2oOZ
 github.com/cockroachdb/redact v1.1.3 h1:AKZds10rFSIj7qADf0g46UixK8NNLwWTNdCIGS5wfSQ=
 github.com/cockroachdb/redact v1.1.3/go.mod h1:BVNblN9mBWFyMyqK1k3AAiSxhvhfK2oOZZ2lK+dpvRg=
 github.com/cockroachdb/sentry-go v0.6.1-cockroachdb.2/go.mod h1:8BT+cPK6xvFOcRlk0R8eg+OTkcqI6baNH4xAkpiYVvQ=
-github.com/codeallergy/glue v1.0.0 h1:NOENp58Z3eObSJkE/Ec/uv2HxyvJLrp6kQfPL6Cu3uo=
-github.com/codeallergy/glue v1.0.0/go.mod h1:sHjEZQtETyoLfgi4/J7n/d0r14/bfJZVAyg1CCWwdAk=
-github.com/codeallergy/store v1.0.0 h1:40+qXG651+UBsoq/6+xsT98Nvj9RO3Pz5+tcDfV9SVc=
-github.com/codeallergy/store v1.0.0/go.mod h1:PK4RFog/HGR4km080pKBlEkmtDLaFLoLcFARtvZg1GE=
+github.com/codeallergy/glue v1.0.2 h1:78S8Wvi7ozAztejSAhC86vR7LY0OBoN1BbDfQcMq9wE=
+github.com/codeallergy/glue v1.0.2/go.mod h1:7FDCk+rgtr7r51AjDEBcBaZDHHl+TJKKWcTSXV/K8po=
+github.com/codeallergy/store v1.0.3 h1:qtC/idtotFeOYCS1WUhvPoZZwZR16wORaH1OoOJgrgI=
+github.com/codeallergy/store v1.0.3/go.mod h1:qQjNqAbgR5f55KMr1hv/yjKGJCtHSFYVAoPd0j9M8as=
 github.com/codeallergy/value v1.0.0 h1:fk14cR8jKCQTsGZBA4b+ZD0kxthFaEVHwNLbrADMZd4=
 github.com/codeallergy/value v1.0.0/go.mod h1:f5Vh6rLIzlG5vX7hi/W7n+1yD2UIbmhOWn5GRajNc94=
 github.com/codegangsta/inject v0.0.0-20150114235600-33e0aa1cb7c0/go.mod h1:4Zcjuz89kmFXt9morQgcfYZAYZ5n8WHjt81YYWIwtTM=
@@ -254,8 +254,8 @@ github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXf
 github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=
 github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=
 github.com/stretchr/testify v1.5.1/go.mod h1:5W2xD1RspED5o8YsWQXVCued0rvSQ+mT+I5cxcmMvtA=
-github.com/stretchr/testify v1.7.0 h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5CcY=
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
+github.com/stretchr/testify v1.8.2 h1:+h33VjcLVPDHtOdpUCuF+7gSuG3yGIftsP1YvFihtJ8=
 github.com/ugorji/go v1.1.4/go.mod h1:uQMGLiO92mf5W77hV/PUCpI3pbzQx3CRekS0kk+RGrc=
 github.com/ugorji/go v1.1.7/go.mod h1:kZn38zHttfInRq0xu/PH0az30d+z6vm202qpg1oXVMw=
 github.com/ugorji/go/codec v0.0.0-20181204163529-d75b2dcb6bc8/go.mod h1:VFNgLljTbGfSG7qAOspJ7OScBnGdDN/yBr0sguwnwf0=
